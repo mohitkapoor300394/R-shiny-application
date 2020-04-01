@@ -1,0 +1,13 @@
+install.packages(c('shiny','readr','foreach','plotly','IRanges','HiddenMarkov','ggplot2'))
+install.packages("shiny")
+install.packages("plotly")
+install.packages("foreach")
+install.packages("readr")
+install.packages("HiddenMarkov")
+library(HiddenMarkov)
+library(readr)
+library(plotly)
+library(shiny)
+library(doParallel)
+library(foreach)
+
